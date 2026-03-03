@@ -1,0 +1,247 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-03-03T07:44:38.948Z",
+    "end": "2026-03-03T07:44:57.156Z",
+    "duration": 18208,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e3c157fe-509d-4aaa-b7f3-7b9ff9f6761f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\product-crud.cy.js",
+      "file": "cypress\\e2e\\product-crud.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3ede34a4-a96c-4543-9a50-f4872bd43675",
+          "title": "Module Authentification",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_LOGIN_001 - La page de login doit se charger",
+              "fullTitle": "Module Authentification TC_LOGIN_001 - La page de login doit se charger",
+              "timedOut": null,
+              "duration": 877,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "9017a11e-169e-4f40-a5c1-a5e94e4ba8ea",
+              "parentUUID": "3ede34a4-a96c-4543-9a50-f4872bd43675",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_002 - Tous les éléments doivent être présents",
+              "fullTitle": "Module Authentification TC_LOGIN_002 - Tous les éléments doivent être présents",
+              "timedOut": null,
+              "duration": 441,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "05f2e73e-2e7b-4b5d-b538-6f5accf256c2",
+              "parentUUID": "3ede34a4-a96c-4543-9a50-f4872bd43675",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_003 - Connexion avec identifiants valides (admin)",
+              "fullTitle": "Module Authentification TC_LOGIN_003 - Connexion avec identifiants valides (admin)",
+              "timedOut": null,
+              "duration": 2334,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "c460db4f-1c2d-4635-b077-1683e5e54d4a",
+              "parentUUID": "3ede34a4-a96c-4543-9a50-f4872bd43675",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_004 - Déconnexion",
+              "fullTitle": "Module Authentification TC_LOGIN_004 - Déconnexion",
+              "timedOut": null,
+              "duration": 2280,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "cd038044-aa87-4c83-b2ca-093332cf707f",
+              "parentUUID": "3ede34a4-a96c-4543-9a50-f4872bd43675",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_005 - Connexion avec identifiants utilisateur normal",
+              "fullTitle": "Module Authentification TC_LOGIN_005 - Connexion avec identifiants utilisateur normal",
+              "timedOut": null,
+              "duration": 1787,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "0982d5bd-4753-42ea-b8f4-f03621c7922d",
+              "parentUUID": "3ede34a4-a96c-4543-9a50-f4872bd43675",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9017a11e-169e-4f40-a5c1-a5e94e4ba8ea",
+            "05f2e73e-2e7b-4b5d-b538-6f5accf256c2",
+            "c460db4f-1c2d-4635-b077-1683e5e54d4a",
+            "cd038044-aa87-4c83-b2ca-093332cf707f",
+            "0982d5bd-4753-42ea-b8f4-f03621c7922d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7719,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5353e33c-fb20-4f89-b585-b11d9738a914",
+          "title": "Module Gestion Produits",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_PRODUCT_001 - Créer un nouveau produit",
+              "fullTitle": "Module Gestion Produits TC_PRODUCT_001 - Créer un nouveau produit",
+              "timedOut": null,
+              "duration": 7225,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "01c844d5-1782-44d2-a5c4-c094742ca46b",
+              "parentUUID": "5353e33c-fb20-4f89-b585-b11d9738a914",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_PRODUCT_002 - Pagination",
+              "fullTitle": "Module Gestion Produits TC_PRODUCT_002 - Pagination",
+              "timedOut": null,
+              "duration": 2891,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "063654c8-9bc6-46b6-8f2a-5d8bbbebcca8",
+              "parentUUID": "5353e33c-fb20-4f89-b585-b11d9738a914",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "01c844d5-1782-44d2-a5c4-c094742ca46b",
+            "063654c8-9bc6-46b6-8f2a-5d8bbbebcca8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10116,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "rapport-[status]-[datetime]",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "yyyy-mm-dd-HH-MM-ss",
+        "charts": true,
+        "code": false,
+        "inline": true,
+        "saveAll": true,
+        "reportFilename": "rapport-[status]-[datetime]",
+        "reportTitle": "Rapport des Tests - Smart Stock Manager",
+        "reportPageTitle": "Tests Automatisés"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

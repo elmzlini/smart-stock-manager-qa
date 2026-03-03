@@ -1,0 +1,14 @@
+{
+  "newProduct": {
+    "name": "Produit Test",
+    "description": "Description du produit test",
+    "price": 99.99,
+    "quantity": 50,
+    "category": "Electronique"
+  },
+  "updatedProduct": {
+    "name": "Produit Modifié",
+    "price": 79.99,
+    "quantity": 30
+  }
+}

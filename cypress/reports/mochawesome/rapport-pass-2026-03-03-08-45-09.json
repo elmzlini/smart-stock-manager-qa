@@ -1,0 +1,228 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-03-03T07:45:00.440Z",
+    "end": "2026-03-03T07:45:09.884Z",
+    "duration": 9444,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a601a20c-f39d-4b5c-889f-9b25a28065bf",
+      "title": "",
+      "fullFile": "cypress\\e2e\\stock-management.cy.js",
+      "file": "cypress\\e2e\\stock-management.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "545b600d-17c1-4041-99be-2241b4dd7d12",
+          "title": "Module Authentification",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_LOGIN_001 - La page de login doit se charger",
+              "fullTitle": "Module Authentification TC_LOGIN_001 - La page de login doit se charger",
+              "timedOut": null,
+              "duration": 860,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4f0d0493-bd29-48d6-98ea-472b985b25a7",
+              "parentUUID": "545b600d-17c1-4041-99be-2241b4dd7d12",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_002 - Tous les éléments doivent être présents",
+              "fullTitle": "Module Authentification TC_LOGIN_002 - Tous les éléments doivent être présents",
+              "timedOut": null,
+              "duration": 364,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4084f556-112f-41f3-8fa8-5452cadeafe6",
+              "parentUUID": "545b600d-17c1-4041-99be-2241b4dd7d12",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_003 - Connexion avec identifiants valides (admin)",
+              "fullTitle": "Module Authentification TC_LOGIN_003 - Connexion avec identifiants valides (admin)",
+              "timedOut": null,
+              "duration": 2199,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "6d16f410-96e9-4093-b2c5-3036e2ec9f8e",
+              "parentUUID": "545b600d-17c1-4041-99be-2241b4dd7d12",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_004 - Déconnexion",
+              "fullTitle": "Module Authentification TC_LOGIN_004 - Déconnexion",
+              "timedOut": null,
+              "duration": 1985,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "a251cc31-8c77-4433-8293-e5148c480752",
+              "parentUUID": "545b600d-17c1-4041-99be-2241b4dd7d12",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_LOGIN_005 - Connexion avec identifiants utilisateur normal",
+              "fullTitle": "Module Authentification TC_LOGIN_005 - Connexion avec identifiants utilisateur normal",
+              "timedOut": null,
+              "duration": 1833,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "9bb0d5fa-b4b8-4d5f-ba37-a9c8b6d8b153",
+              "parentUUID": "545b600d-17c1-4041-99be-2241b4dd7d12",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4f0d0493-bd29-48d6-98ea-472b985b25a7",
+            "4084f556-112f-41f3-8fa8-5452cadeafe6",
+            "6d16f410-96e9-4093-b2c5-3036e2ec9f8e",
+            "a251cc31-8c77-4433-8293-e5148c480752",
+            "9bb0d5fa-b4b8-4d5f-ba37-a9c8b6d8b153"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7241,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "735ddfc4-28ae-4d81-a60b-e5ae6bc60c7e",
+          "title": "Module Gestion Stock",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_STOCK_001 - Page stock chargée",
+              "fullTitle": "Module Gestion Stock TC_STOCK_001 - Page stock chargée",
+              "timedOut": null,
+              "duration": 1930,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "f38ee042-aa9a-4d73-b0d7-8c22eb97e0fb",
+              "parentUUID": "735ddfc4-28ae-4d81-a60b-e5ae6bc60c7e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f38ee042-aa9a-4d73-b0d7-8c22eb97e0fb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1930,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "rapport-[status]-[datetime]",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "yyyy-mm-dd-HH-MM-ss",
+        "charts": true,
+        "code": false,
+        "inline": true,
+        "saveAll": true,
+        "reportFilename": "rapport-[status]-[datetime]",
+        "reportTitle": "Rapport des Tests - Smart Stock Manager",
+        "reportPageTitle": "Tests Automatisés"
+      },
+      "version": "6.3.2"
+    }
+  }
+}
