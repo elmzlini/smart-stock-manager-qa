@@ -1,4 +1,5 @@
 📦 Smart Stock Manager – QA Automation Framework
+
 🎯 Project Purpose
 
 This project demonstrates the design and implementation of a professional End-to-End (E2E) test automation framework built with Cypress for a Stock Management Web Application.
